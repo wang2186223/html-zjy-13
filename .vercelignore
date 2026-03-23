@@ -1,0 +1,8 @@
+# 忽略 Python 相关文件，防止 Vercel 误识别为 Python 项目
+*.py
+tools/
+source/
+requirements.txt
+*.pyc
+__pycache__/
+.python-version
